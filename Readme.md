@@ -35,12 +35,14 @@ bash part-2.sh
 
 ## Automated Day Setup
 
-1. Run the script with the desired day number:
+1. Create the file `cookies.txt` in the root directory and paste your session cookie from the AoC website into it.
+
+2. Run the script with the desired day number:
 
 ```bash
 ./create.sh <day_number>
 ```
 
-2. The script creates a directory (Day-<day_number>), an empty input.txt file, and populates part-1.sh and part-2.sh with templates.
+3. The script creates a directory (Day-<day_number>), an empty input.txt file, and populates part-1.sh and part-2.sh with templates.
 
-3. Navigate to the day's directory and start solving the challenges!
+4. Navigate to the day's directory and start solving the challenges!
