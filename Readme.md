@@ -29,7 +29,18 @@ cd Day-01
 3. Run the solution scripts:
 
 ```bash
-Copy code
 bash part-1.sh
 bash part-2.sh
 ```
+
+## Automated Day Setup
+
+1. Run the script with the desired day number:
+
+```bash
+./create.sh <day_number>
+```
+
+2. The script creates a directory (Day-<day_number>), an empty input.txt file, and populates part-1.sh and part-2.sh with templates.
+
+3. Navigate to the day's directory and start solving the challenges!
