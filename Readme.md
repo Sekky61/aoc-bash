@@ -1,8 +1,11 @@
 # Advent of Code 2023 using Bash
 
-This repository contains my solutions for the Advent of Code 2023 challenges, implemented in Bash. Each day's solutions are organized into separate directories.
+This repository contains my solutions for the Advent of Code 2023 challenges, implemented in Bash.
+More specifically, using Bash and unix utilities. 
 
 ## Directory Structure
+
+Each day's solutions are organized into separate directories.
 
 ```
 /Day-XX
@@ -20,7 +23,7 @@ git clone https://github.com/Sekky61/aoc-bash.git
 cd aoc-bash
 ```
 
-2. Navigate to the specific day's directory:
+2. Navigate to the specific day's directory (a needed step):
 
 ```bash
 cd Day-01
